@@ -6,7 +6,6 @@ import { dataList } from './Data/dataConversation'
 function scrollToChat() {
     var scroll = document.getElementById('chat');
     scroll.scrollTop = scroll.scrollHeight;
-    scroll.animate({scrollTop: scroll.scrollHeight});
 }
 
 export default function Body() {
